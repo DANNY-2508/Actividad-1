@@ -1,0 +1,96 @@
+  body{
+
+	background-image: url(fondo1.png);
+	color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  h1{
+	color: rgb(255, 255, 255);
+	font-size: 300%;
+  }
+
+  h2{
+	color:rgb(250, 250, 250);
+	font-size: xx-large;
+  }
+
+  h3{
+	color:rgb(250, 250, 250);
+	font-size: xx-large;
+  }
+
+
+/* BARRA INFERIOR*/
+  body {margin:0;}
+  
+  #barraInferior {
+  overflow: hidden;
+  width: 100%;
+  }
+  
+  #barraInferior ul {
+	  list-style-type: none;
+	  margin: 0 auto;
+	  padding-left: 30% ;
+	  overflow: hidden;
+	  background-color: #333;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+	  
+  }
+  
+  #barraInferior li {
+	  float: left;
+	  
+  }
+  
+  #barraInferior li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+  }
+  
+  #barraInferior li a:hover{
+	  background-color: #111;
+  }
+  
+  #barraInferior li a:active{
+	  background-color:#4CAF50;
+  }
+  
+  /* FORMULARIO*/
+  #form {
+    border:1px solid #037278;
+    width:450px;
+    margin:auto;
+}
+#form legend{
+    font-weight:bold;
+    font-size:12px;
+}
+#form ol{
+    list-style:none;
+}
+#form ol li{
+    padding-bottom:5px;
+}
+#form ol li label{
+    width:120px;
+    float:left;
+    text-align:left;
+}
+#form input[type=text] {
+    border:1px solid #CCCCCC;
+}
+#form input.btn {
+    padding:3px;
+    color:#ffffff;
+    background-color:#065786;
+    border:1px solid #000000;
+}
