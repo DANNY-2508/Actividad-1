@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 28px;
+	margin: 0;
+}
+
+.search input[type="text"] {
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px 0 0 4px;
+	font-size: 16px;
+}
+
+.search button {
+	padding: 8px 12px;
+	border: none;
+	border-radius: 0 4px 4px 0;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.categories {
+	display: flex;
+	align-items: center;
+}
+
+.categories button {
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f7f7f7;
+	color: #333;
+	font-size: 16px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.categories button:hover,
+.categories button:focus {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.highlighted-news {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.highlighted-news article {
+	flex: 1 1 400px;
+	background-color: #fff;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlighted-news article h2 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.highlighted-news article p {
+	margin-top: 10px;
+	line-height: 1.4;
+}
+
+.highlighted-news article .category {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 14px;
+	padding: 6px 10px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.all-news {
+	margin: 20px;
+}
+
+.all-news h2 {
+	font-size: 24px;
+	margin: 0 0 20px;
+}
+
+.all-news article {
+	background-color: #fff;
+	padding: 20px;
+	margin: 10px 0;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.all-news article h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.all-news article p {
+	margin-top: 10px;
+	line-height: 1.4;
+}
+
+.all-news article .category {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 14px;
+	padding: 6px 10px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.highlighted-news article {
+		flex: 1 1 100%;
+	}
+}

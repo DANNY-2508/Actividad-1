@@ -1,0 +1,127 @@
+/* FORMULARIO*/
+#auto-form {
+    border:1px solid #04ffff;
+    width:450px;
+    margin:auto;
+}
+#auto-form legend{
+    font-weight:bold;
+    font-size:20px;
+    color: #000000;
+}
+#auto-form ol{
+    list-style:none;
+}
+#auto-form ol li{
+    padding-bottom:5px;
+}
+#auto-form ol li label{
+    width:120px;
+    float:left;
+    text-align:left;
+}
+#auto-form input[type=text] {
+    border:1px solid #fffbfb;
+}
+#auto-form button.btn {
+    padding:3px;
+    color:#fffcfc;
+    background-color:#000000;
+    border:1px solid #eb469b;
+    border-radius: 12px;
+    font-size: 16px;
+    width: 250px;
+    transition-duration: 0.4s;
+}
+
+#auto-form button.btn:hover {
+    background-color: #eb469b;
+    color: white;
+}
+
+ /* OTROS*/
+  h1{
+    color: #000000;
+    text-align: center;
+  }
+
+  label{
+    color: #000000;
+    font-size: 150%;
+  }
+
+  p{
+    color: #000000;
+    font-size: 200%;
+  }
+
+  /* BARRA INFERIOR*/
+  body {margin:0;}
+  
+  #barraInferior {
+  overflow: hidden;
+  width: 100%;
+  }
+  
+  #barraInferior ul {
+	  list-style-type: none;
+	  margin: 0 auto;
+	  padding-left: 30% ;
+	  overflow: hidden;
+	  background-color: #eb469b;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+	  
+  }
+  
+  #barraInferior li {
+	  float: left;
+	  
+  }
+  
+  #barraInferior li a {
+	  display: block;
+	  color: rgb(1, 0, 0);
+	  text-align: center;
+      font-weight: bold;
+	  padding: 14px 16px;
+	  text-decoration: none;
+  }
+  
+  #barraInferior li a:hover{
+	  background-color: #ff4edc;
+  }
+  
+  #barraInferior li a:active{
+	  background-color:#4CAF50;
+  }
+  /*DARK MODE*/
+body {
+	color: #ffffff;
+    background-image: url(/Fondos/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    transition: all 1.5s ease;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.dark-mode {
+    background-image: url(/Fondos/fondobn.jpg);
+	color: #ffffff;
+    transition: all 1.5s ease;
+}
+
+.dark-mode button {
+	background-color: #000000;
+	color: #fdfdfd;
+}
