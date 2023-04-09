@@ -1,64 +1,105 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Noticias</title>
-	<link rel="stylesheet" href="/Pruebas/prueba.css">
-</head>
-<body>
-	<header>
-		<h1>Noticias destacadas</h1>
-		<div class="search">
-			<input type="text" placeholder="Buscar...">
-			<button>Buscar</button>
-		</div>
-		<div class="categories">
-			<button id="all">Todas</button>
-			<button id="sports">Deportes</button>
-			<button id="politics">Política</button>
-			<button id="culture">Cultura</button>
-			<button id="technology">Tecnología</button>
-		</div>
-	</header>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
 
-	<main>
-		<section class="highlighted-news">
-			<article>
-				<h2>Noticia destacada 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Deportes</span>
-			</article>
-			<article>
-				<h2>Noticia destacada 2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Cultura</span>
-			</article>
-		</section>
+    <title>MEMORAMA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Pruebas/prueba.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <label for="toggle" id="lable_toggle" onclick="toggleDarkMode()"><i class="fa-solid fa-lightbulb"></i></i></i></label>
+    
+	<div class="wrapper">
 
-		<section class="all-news">
-			<h2>Todas las noticias</h2>
-			<article>
-				<h3>Noticia 1</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Política</span>
-			</article>
-			<article>
-				<h3>Noticia 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Tecnología</span>
-			</article>
-			<article>
-				<h3>Noticia 3</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Deportes</span>
-			</article>
-			<article>
-				<h3>Noticia 4</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Cultura</span>
-			</article>
-		</section>
-	</main>
+      <ul class="cards">
 
-	<script src="/Pruebas/Prueba.js"></script>
-</body>
+        <li class="card">
+          <div class="view front-view">
+            <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="/Pruebas/Imagenes/1.png" alt="card-img">
+          </div>
+        </li>
+
+		<li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Pruebas/Imagenes/1.png" alt="card-img">
+			</div>
+		  </li>
+
+		  <li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Iconos/img-1.png" alt="card-img">
+			</div>
+		  </li>
+
+		  <li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Iconos/img-1.png" alt="card-img">
+			</div>
+		  </li>
+
+		  <li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Iconos/img-1.png" alt="card-img">
+			</div>
+		  </li>
+
+		  <li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Iconos/img-1.png" alt="card-img">
+			</div>
+		  </li>
+
+		  <li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Iconos/img-1.png" alt="card-img">
+			</div>
+		  </li>
+
+		  <li class="card">
+			<div class="view front-view">
+			  <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+			</div>
+			<div class="view back-view">
+			  <img src="/Iconos/img-1.png" alt="card-img">
+			</div>
+		  </li>
+
+        <li class="card">
+          <div class="view front-view">
+            <img src="/Iconos/Tarjeta_V_512px.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="" alt="card-img">
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  <script src="/Pruebas/Prueba.js"></script>
+    <script src="/JS/Index.js"></script>
+  </body>
 </html>
+

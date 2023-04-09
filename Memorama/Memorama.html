@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Memory match</title>
+    <!--- Importa el logotipo de para el cambio del darkmode sin necesidad de descargarlo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--Importa los diseño de toda la pagina-->
+    <link rel="stylesheet" href="Mem.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <ceter>
+    <center><h1>Memory match</h1></center>
+      <!--Importa la imagen de la luna dentro de la pagina y la acomoda en la parte superior derecha-->
+    <label for="toggle" id="lable_toggle" onclick="toggleDarkMode()"><i class="fa-solid fa-moon"></i></label>
+    <!--Acomoda las imagenes por secciones para acomodarlas de manera vertical y horinzontal en el centro-->
+    <div class="wrapper">
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="Card">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/1.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="/Memorama/imagenes/1.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="/Memorama/imagenes/2.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/2.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/3.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/3.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/4.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/4.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/5.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/5.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/6.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/6.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/7.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/7.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/8.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <!--Se agrega la imagen de la carta de atras del memorama-->
+            <img src="/Memorama/imagenes/back.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <!--Se agregan las imagenes del memorama-->
+            <img src="/Memorama/imagenes/8.png" alt="card-img">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </ceter>
+<!--Se crea una clase especifica para el contador/cronometro-->
+  <div class="container">
+    <h4>Cronómetro</h4>
+     <div class="display">
+        <span id="minutos">00</span>:<span id="segundos">00</span>
+    </div>
+    <!--Botones del cronometro-->
+    <button id="btn-start-stop" onclick="startStop()">Iniciar</button>
+    <button id="btn-reset" onclick="reset()">Reiniciar</button>
+    <table id="tabla" class="tbp">
+      <!--Tabla en la que se almacenaran los diferentes tiempos-->
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Tiempo</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div> 
+<!--Importacion del JavaScript para la logica del juego  y del contador-->
+    <script src="Mem.js"></script>
+  </body>
+</html>

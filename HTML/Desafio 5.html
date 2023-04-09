@@ -6,7 +6,7 @@
 </head>
 <body>
 	<header>
-		<h1>Noticias destacadas</h1>
+		<h1>SmartNotes</h1>
 		<div class="search">
 			<input type="text" placeholder="Buscar...">
 			<button>Buscar</button>
@@ -15,50 +15,52 @@
 			<button id="all">Todas</button>
 			<button id="sports">Deportes</button>
 			<button id="politics">Política</button>
-			<button id="culture">Cultura</button>
+			<button id="music">Musica</button>
 			<button id="technology">Tecnología</button>
+			<button onclick="toggleDarkMode()" id="technology " >DARK MODE</button>
 		</div>
 	</header>
 
 	<main>
 		<section class="highlighted-news">
 			<article>
-				<h2>Noticia destacada 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Deportes</span>
+				<h2><a href = "https://www.milenio.com/espectaculos/famosos/pati-chapoy-juez-da-suspension-indefinida-orden-arresto-ventaneando">Caso Pati Chapoy</a></h2>
+				<p>Una jueza federal otorgó una suspensión definitiva a los conductores de televisión de programas de espectáculos Pati Chapoy y Daniel Bisogno</p>
+				<span class="category">Farandula</span>
 			</article>
 			<article>
-				<h2>Noticia destacada 2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Cultura</span>
+				<h2><a href = "https://www.milenio.com/politica/amlo-califica-al-ministro-laynez-como-su-alteza-serenisima">AMLO califica al ministro Laynez como "su alteza serenísima" por cancelar 'Plan B'</a></h2>
+				<p>El Presidente reiteró que este debate debe seguir su curso mientras que el gobierno seguira buscando mejorar las instituciones electorales.</p>
+				<span class="category">Politica</span>
 			</article>
 		</section>
 
 		<section class="all-news">
 			<h2>Todas las noticias</h2>
 			<article>
-				<h3>Noticia 1</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Política</span>
+				<h3><a href = "https://elpais.com/tecnologia/tu-tecnologia/2023-03-27/trabaja-delante-del-ordenador-estos-son-los-dispositivos-ergonomicos-que-necesita.html">¿Trabaja delante del ordenador? Estos son los dispositivos ergonómicos que necesita</a></h3>
+				<p>Totalmente adaptados a la fisionomía de los usuarios, ayudan a prevenir y paliar los dolores derivados de estar muchas horas en la misma (y mala) postura</p>
+				<span class="category">Tecnologia</span>
 			</article>
 			<article>
-				<h3>Noticia 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
+				<h3><a href = "https://elpais.com/tecnologia/2023-03-25/muere-gordon-moore-cofundador-de-intel-y-pionero-de-la-informatica.html">Muere Gordon Moore, cofundador de Intel y pionero de la informática</a></h3>
+				<p>El ingeniero de 94 años, creador de la ley que lleva su nombre, fue clave en el desarrollo de microprocesadores cada vez más potentes y pequeños que revolucionaron la computación</p>
 				<span class="category">Tecnología</span>
 			</article>
 			<article>
-				<h3>Noticia 3</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Deportes</span>
+				<h3><a href = "https://www.elmundo.es/deportes/motociclismo/2023/03/27/64215cd0fc6c839d0a8b45a0.html">Marc Márquez, operado de una fractura en la mano derecha, no viajará a Argentina</a></h3>
+				<p>El piloto de Repsol Honda se produjo una fractura del primer metacarpiano tras una caída en el GP de Portugal y no podrá disputar la segunda carrera del Mundial.</p>
+				<span class="category">Deporte</span>
 			</article>
 			<article>
-				<h3>Noticia 4</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus et dolor rutrum rhoncus nec non massa. Etiam dictum metus vel risus rhoncus hendrerit.</p>
-				<span class="category">Cultura</span>
+				<h3><a href = "https://cnnespanol.cnn.com/video/karol-g-ruptura-relacion-anuel-desamor-destruye-vida-primera-latina-festival-lollapalooza-chicago-showbiz/">Karol G dice que un desamor te puede destruir la vida</a></h3>
+				<p>Karol G relata en una entrevista para el diario español El País cómo su ruptura sentimental la llevó a un estado de sentirse vulnerable y dependiente emocionalmente, al punto de dañar su autoestima.</p>
+				<span class="category">Musica</span>
 			</article>
 		</section>
 	</main>
 
 	<script src="/JS/Desafio 5.js"></script>
+	<script src="/JS/Index.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@
   
   .play-button,
   .pause-button {
-    background-color: #4CAF50;
+    background-color: #2087ba;
     border: none;
     color: white;
     padding: 10px;
@@ -28,6 +28,78 @@
   
   .play-button:hover,
   .pause-button:hover {
-    background-color: #3e8e41;
+    background-color: #01e6ff;
   }
   
+  /*DARK MODE*/
+ body {
+  color: #000000;
+    background-image: url(/Fondos/marshmello.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    transition: all 1.5s ease;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dark-mode {
+    background-image: url(/Fondos/marshmelloBN.jpg);
+  color: #ffffff;
+    transition: all 1.5s ease;
+}
+
+.dark-mode button {
+  background-color: #000000;
+  color: #fdfdfd;
+}  
+
+/* BARRA INFERIOR*/
+body {margin:0;}
+
+#barraInferior {
+overflow: hidden;
+width: 100%;
+font-family: Arial, sans-serif;
+}
+
+#barraInferior ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 30% ;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+#barraInferior li {
+  float: left;
+  
+}
+
+#barraInferior li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+    font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#barraInferior li a:hover{
+  background-color: #2087ba;
+}
+
+#barraInferior li a:active{
+  background-color:#4CAF50;
+}
