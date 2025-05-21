@@ -1,0 +1,19 @@
+/************************************************************************************\
+
+- A continuacion agrego el codigo que tiene que ser ejecutado para poder inicar la API.
+
+- Primero sera necesario tener instalda la siguiente libreria: " pip install fastapi uvicorn ".
+
+/************************************************************************************\
+
+- En la consola del programa ingresa el siguiente codigo: " uvicorn api:app --reload ".
+
+- Para poder ingresar a la api una vez esta haya iniciado pueden ingresar a la sigiente direccion: " http://127.0.0.1:8000 ".
+
+- Para poder ingresar a la parte de la documentación donde ahi mismo se podra realizar las diferentes pruebas expandiendo y dando click en el
+  boton de "Try it Out" y comienza la ejecucion de manera mas grafica. 
+
+  Direccion para ingresar a la parte de la documentación: " http://127.0.0.1:8000/docs "
+
+/************************************************************************************\
+
